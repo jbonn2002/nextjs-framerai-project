@@ -1,10 +1,13 @@
 import React from "react";
 import { Button } from "./ui/button";
+import { Trees } from "lucide-react";
 
 const Header = () => {
   return (
     <section className="flex flex-col bg-[#F0EAD2] items-center justify-between p-24">
-      <div>Image Holder</div>
+      <div className="mb-10">
+        <Trees size={64} className="text-[#6C584C]" />
+      </div>
       <div className="relative flex text-center place-items-center md:text-6xl text-4xl">
         Revolutionize Your Business
       </div>
